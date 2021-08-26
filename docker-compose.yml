@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  backend:
+    container_name: node_app
+    build: .
+    command: npm start
+    ports:
+      - "8080:8080"
+    network_mode: bridge
+    restart: always

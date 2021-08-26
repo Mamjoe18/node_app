@@ -4,7 +4,7 @@
   "description": "\"App build with node\"",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Mamadou MBEGUERE",
   "license": "ISC",
